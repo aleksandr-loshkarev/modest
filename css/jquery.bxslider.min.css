@@ -1,14 +1,10 @@
 .bx-wrapper {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   padding: 0;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
-  -moz-box-shadow: 0 0 5px #ccc;
-  -webkit-box-shadow: 0 0 5px #ccc;
-  /*box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
-  background: #fff*/
+  z-index: 0;
 }
 
 .bx-wrapper img {
@@ -31,7 +27,8 @@ ul.bxslider {
 
 .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
   position: absolute;
-  bottom: -30px;
+  bottom: 29px;
+  right: -545px;
   width: 100%
 }
 
@@ -51,25 +48,25 @@ ul.bxslider {
   font-size: .85em;
   font-family: Arial;
   font-weight: 700;
-  color: #666;
-  padding-top: 20px
+  color: #fff;
+  padding-top: 0;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  border: 2px solid #ffffff;
   text-indent: -9999px;
   display: block;
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
+  width: 13px;
+  height: 13px;
+  margin: 0 4px;
   outline: 0;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
-  background: #000
+  background: #fff;
 }
 
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item, .bx-wrapper .bx-pager-item {
@@ -149,7 +146,7 @@ ul.bxslider {
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
   text-align: left;
-  width: 80%
+  width: 52%
 }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
